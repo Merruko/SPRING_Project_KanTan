@@ -1,0 +1,18 @@
+21.02.01
+내 실력의 한계로 1.로그인 2.공지사항 3.내정보출력 밖에 못함
+
+언젠가..
+4. 내정보 수정 5. 비밀번호 변경 6. 회원탈퇴
+7. 공지사항 조회수 8. 세션 별로 메뉴 다르게 뜨게하기
+
+
+* 	presentation-layer.xml에
+
+	<!-- 파일 업로드 설정 -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="100000" />
+	</bean>
+	
+	파일업로드 관련 코드 전부 들어냈는데도 여기를 지우면 글 등록이 안된다. (DB에만 들어감)
+	나중에 내공이 쌓이면 그 이유를 알까?
