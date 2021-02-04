@@ -24,4 +24,5 @@
 	</div>
 	<jsp:include page="k_footer.jsp" />
 </body>
+
 </html>
