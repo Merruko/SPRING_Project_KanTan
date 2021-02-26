@@ -9,7 +9,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>InterClass</title>
 <style type="text/css">
-	#container{width: 100%; margin: 0 auto; text-align: center;}
 	.title{height: 130px; width: 100%; font-size: 20px; background: red; line-height: 130px; color: black;}
 	table{margin: 0 auto; width: 700px; border-collapse: collapse; text-align: center;}
 	tr, td{border: 1px solid #222; padding: 10px;}
